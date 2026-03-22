@@ -7,11 +7,11 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL", "Docker"],
+    skills: ["Node.js"],
   },
   {
     title: "Design",
-    skills: ["Figma", "UI/UX Design", "Design Systems", "Prototyping", "User Research"],
+    skills: ["Figma", "UI/UX Design", "Design Systems", "Prototyping", "User Research", "Adobe Photoshop", "Adobe InDesign", "Adobe Lightroom"],
   },
   {
     title: "Tools & Methods",
