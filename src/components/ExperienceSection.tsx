@@ -93,13 +93,13 @@ const ExperienceSection = () => {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className={`group relative ${
                 idx === 0 ? "z-20 bg-background" : "z-10"
-              } grid md:grid-cols-[200px_1fr] gap-6 md:gap-12 py-10 border-t border-border hover:border-primary transition-colors`}
+              } grid md:grid-cols-[200px_1fr] gap-6 md:gap-12 py-10 border-t border-border`}
             >
               <p className="font-mono text-xs text-muted-foreground tracking-wider">
                 {exp.period}
               </p>
               <div>
-                <h3 className="font-display text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
+                <h3 className="font-display text-xl font-semibold text-foreground">
                   {exp.role}
                 </h3>
                 <p className="font-mono text-sm text-primary mt-1">{exp.company}</p>
