@@ -1,3 +1,4 @@
+import { Camera } from "lucide-react";
 import { motion } from "framer-motion";
 
 const experiences = [
@@ -35,8 +36,44 @@ const experiences = [
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-32 px-6">
-      <div className="max-w-5xl mx-auto">
+    <section id="experience" className="relative py-32 px-6 overflow-visible">
+      <div className="max-w-5xl mx-auto relative">
+        <motion.a
+          href="https://www.momentsandmedia.de"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open momentsandmedia.de"
+          className="group/marker absolute top-10 left-[72%] -translate-x-1/2 z-0"
+          animate={{
+            y: [0, -12, -10, -10, 22, 22, 0],
+            x: [0, 0, -6, 6, 0, 0, 0],
+            rotate: [0, 0, -6, 6, 0, 0, 0],
+          }}
+          whileHover={{
+            y: -12,
+            x: [0, -6, 6, -6, 6, 0],
+            rotate: [0, -4, 4, -4, 4, 0],
+            transition: {
+              y: { duration: 0 },
+              x: { duration: 2.2, repeat: Infinity, ease: "easeInOut" },
+              rotate: { duration: 2.2, repeat: Infinity, ease: "easeInOut" },
+            },
+          }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", times: [0, 0.14, 0.24, 0.34, 0.46, 0.86, 1] }}
+        >
+          <div className="relative">
+            <div className="opacity-0 -translate-y-1 pointer-events-none transition-all duration-200 group-hover/marker:opacity-100 group-hover/marker:translate-y-0 absolute left-1/2 -translate-x-1/2 -top-10 whitespace-nowrap">
+              <span className="font-mono text-xs border border-border bg-card text-foreground px-3 py-1 rounded-md shadow-sm">
+                since 10.2024
+              </span>
+            </div>
+
+            <div className="w-12 h-12 rounded-full border border-border bg-card/70 backdrop-blur flex items-center justify-center text-primary hover:text-foreground transition-colors">
+              <Camera size={22} />
+            </div>
+          </div>
+        </motion.a>
+
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,7 +91,9 @@ const ExperienceSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="group grid md:grid-cols-[200px_1fr] gap-6 md:gap-12 py-10 border-t border-border hover:border-primary transition-colors"
+              className={`group relative ${
+                idx === 0 ? "z-20 bg-background" : "z-10"
+              } grid md:grid-cols-[200px_1fr] gap-6 md:gap-12 py-10 border-t border-border hover:border-primary transition-colors`}
             >
               <p className="font-mono text-xs text-muted-foreground tracking-wider">
                 {exp.period}

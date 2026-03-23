@@ -33,13 +33,13 @@ const ContactSection = () => {
           className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6"
         >
           <a
-            href="mailto:hello@example.com"
+            href="mailto:rebeccaemmanuel1995@gmail.com"
             className="px-8 py-4 bg-primary text-primary-foreground font-mono text-sm tracking-wider uppercase hover:opacity-90 transition-opacity rounded-sm"
           >
             Say Hello
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/RunzelRosinchen"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border border-border text-foreground font-mono text-sm tracking-wider uppercase hover:border-primary hover:text-primary transition-colors rounded-sm"
@@ -47,7 +47,7 @@ const ContactSection = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/rebecca-emmanuel-5b8ba014a/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-4 border border-border text-foreground font-mono text-sm tracking-wider uppercase hover:border-primary hover:text-primary transition-colors rounded-sm"
