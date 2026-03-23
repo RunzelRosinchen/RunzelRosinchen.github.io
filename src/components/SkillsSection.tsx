@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React", "TypeScript", "Stencil.js", "Flutter", "Framer Motion", "Vue.js"],
+    skills: ["React", "TypeScript", "Stencil.js", "Flutter", "Vue.js"],
   },
   {
     title: "Backend",
@@ -11,11 +11,11 @@ const skillCategories = [
   },
   {
     title: "Design",
-    skills: ["Figma", "UI/UX Design", "Design Systems", "Prototyping", "User Research", "Adobe Photoshop", "Adobe InDesign", "Adobe Lightroom"],
+    skills: ["Figma", "UI/UX Design", "Design Systems", "Adobe Photoshop", "Adobe InDesign", "Adobe Lightroom"],
   },
   {
     title: "Tools & Methods",
-    skills: ["Git", "CI/CD", "Agile/Scrum", "Testing", "Headless CMS", "Accessibility"],
+    skills: ["Git", "CI/CD", "Agile/Scrum", "Testing/QAs", "Headless CMS", "Accessibility"],
   },
 ];
 

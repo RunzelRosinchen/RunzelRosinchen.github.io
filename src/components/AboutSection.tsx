@@ -22,28 +22,26 @@ const AboutSection = () => {
           transition={{ duration: 0.7 }}
           className="space-y-6">
           
-          <p className="text-2xl md:text-3xl font-display font-light leading-relaxed text-foreground">I'm a developer with love for UX design who believes that great software is built where empathy meets engineering.
+          <p className="text-2xl md:text-3xl font-display font-light leading-relaxed text-foreground">I'm a developer with love for UX design who believes that great software is built where 
 
-            <span className="text-primary">empathy meets engineering</span>.
+            <span className="text-primary"> empathy meets engineering</span>.
           </p>
           <p className="text-secondary-foreground leading-relaxed">
-            With a passion for clean code and intuitive interfaces, I specialize in 
+            With a passion for intuitive interfaces, I specialize in 
             building products that people actually enjoy using. I approach every project 
-            with a user-first mindset, balancing aesthetic appeal with robust architecture.
+            with a user-first mindset, balancing aesthetic appeal with robust, scalable and maintainable code.
           </p>
           <p className="text-secondary-foreground leading-relaxed">
-            When I'm not shipping features, you'll find me exploring new design systems, 
-            contributing to open source, or diving deep into the latest frontend frameworks. 
-            I believe in continuous learning and pushing the boundaries of what's possible on the web.
+            When I'm not shipping features, you'll find me outside exploring the world with my kids or through my camera lens, dancing ballett and jazz or enjoying a good book.   
           </p>
 
           <div className="pt-6 grid grid-cols-2 gap-8 border-t border-border">
             <div>
-              <p className="font-mono text-3xl font-bold text-primary">5+</p>
+              <p className="font-mono text-3xl font-bold text-primary">6+</p>
               <p className="font-mono text-xs text-muted-foreground mt-1 uppercase tracking-wider">Years Experience</p>
             </div>
             <div>
-              <p className="font-mono text-3xl font-bold text-primary">30+</p>
+              <p className="font-mono text-3xl font-bold text-primary">20+</p>
               <p className="font-mono text-xs text-muted-foreground mt-1 uppercase tracking-wider">Projects Delivered</p>
             </div>
           </div>

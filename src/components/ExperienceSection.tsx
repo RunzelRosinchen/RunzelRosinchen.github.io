@@ -2,28 +2,34 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Developer",
-    company: "Tech Company",
-    description: "Leading frontend architecture and design system initiatives. Building performant, accessible web applications with React and TypeScript.",
+    period: "04.2025 - today",
+    role: "Frontend Engineer & UX Design",
+    company: "PSIORI GmbH",
+    description: "Creation of UX concepts for a range of new features and applications for internal and client projects, and their implementation on the frontend primarily using Flutter and Vue.js.",
   },
   {
-    period: "2020 — 2022",
-    role: "UX Developer",
-    company: "Design Studio",
-    description: "Bridged the gap between design and development. Created interactive prototypes and implemented pixel-perfect interfaces from Figma designs.",
+    period: "04.2022 - 03.2025",
+    role: "Frontend Engineer",
+    company: "Virtual Identity AG",
+    description: "Tech Lead for Corporate Website relaunch for a client in the finance industry. Mentoring new colleagues during internal onboarding. Realization and maintenace of company internal Frontend Knowledge Hub.",
   },
   {
-    period: "2019 — 2020",
-    role: "Full Stack Developer",
-    company: "Startup Inc.",
-    description: "Built MVPs from scratch, handling everything from database design to deployment. Shipped features that helped grow the user base 3x.",
+    period: "04.2020 — 03.2022",
+    role: "Junior Frontend Engineer",
+    company: "Virtual Identity AG",
+    description: "Frontend development in new and existing web projects with mainly React and Stencil.js. Setup of company wide used component library boilerplate for initialisation of new projects.",
   },
   {
-    period: "2018 — 2019",
-    role: "Junior Developer",
-    company: "Agency Co.",
-    description: "Developed responsive websites and web applications for various clients. First exposure to professional software development workflows.",
+    period: "12.2017 — 03.2019",
+    role: "Working Student",
+    company: "Virtual Identity AG",
+    description: "Project management support, CMS maintenance, QA/Testing, Chatbot training",
+  },
+  {
+    period: "08.2013 — 04.2017",
+    role: "Research Assistant",
+    company: "Fraunhofer IWM",
+    description: "Data acquisition, data analysis & administrative tasks",
   },
 ];
 
